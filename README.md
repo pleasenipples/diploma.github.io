@@ -6,7 +6,7 @@
 
 v0.0.0
 
-Учебный проект Yandex Praktikum - Mesto
+Учебный проект Yandex Praktikum
 
 Andrievskiy Andrey.
 
