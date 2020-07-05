@@ -10,6 +10,8 @@ v0.1.0
 
 В данной версии реализована верстка проекта. 
 
+Чтобы локально развернуть проект клонируйте репозиторий в локальную папку. Запустите npm install, далее npm dun dev.
+
 Andrievskiy Andrey.
 
 [1]: https://gazpolanski.github.io/diploma.github.io/
