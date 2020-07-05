@@ -1,0 +1,18 @@
+.tech__title {
+    width: 345px;
+    padding-top: 80px;
+    margin: 0;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .tech__title {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .tech__title {
+        padding-top: 32px;
+        width: 180px;
+    }
+}

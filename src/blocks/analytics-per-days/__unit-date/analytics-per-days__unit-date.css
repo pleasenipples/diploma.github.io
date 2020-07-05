@@ -1,0 +1,23 @@
+.analytics-per-days__unit-date {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80px;
+    color: #1A1B22;
+    margin: 0;
+    width: 104px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .analytics-per-days__unit-date {
+        width: 117px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .analytics-per-days__unit-date {
+        line-height: 48px;
+        width: 80px;
+    }
+}

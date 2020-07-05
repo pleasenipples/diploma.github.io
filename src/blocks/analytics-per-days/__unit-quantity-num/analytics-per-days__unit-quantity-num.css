@@ -1,0 +1,11 @@
+.analytics-per-days__unit-quantity-num {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: auto 0 auto 6px;
+}

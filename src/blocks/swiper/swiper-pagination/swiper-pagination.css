@@ -1,0 +1,19 @@
+.swiper-pagination {
+    margin: 48px auto 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 555;
+
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .swiper-pagination {
+        margin: 32px auto 0 auto;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .swiper-pagination {
+        margin: 16px auto 0 auto;
+    }
+}

@@ -1,0 +1,11 @@
+.tech__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width : 760px) {
+    .tech__item {
+        padding-top: 33px;
+    }
+}

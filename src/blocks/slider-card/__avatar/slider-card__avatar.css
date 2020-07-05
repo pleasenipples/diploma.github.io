@@ -1,0 +1,10 @@
+.slider-card__avatar {
+    width: 64px;
+    border-radius: 1000px;
+}
+
+@media screen and (max-width : 1024px)  {
+    .slider-card__avatar {
+        width: 48px;
+    }
+}

@@ -1,0 +1,16 @@
+.analytics-per-days__grade-param_type_date {
+    width: 104px;
+    padding-bottom: 12px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .analytics-per-days__grade-param_type_date {
+        padding-bottom: 11px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .analytics-per-days__grade-param_type_date {
+        padding-bottom: 8px;
+    }
+}

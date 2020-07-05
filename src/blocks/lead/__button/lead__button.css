@@ -1,0 +1,40 @@
+.lead__button {
+    width: 168px;
+    height: 64px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: #2F71E5;
+    box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffffff;
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+.lead__button:hover {
+    background-color: #347EFF;
+}
+
+.lead__button:active {
+    background-color: #2A65CC;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .lead__button {
+        height: 56px;
+        width: 160px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .lead__button {
+        height: 56px;
+        width: 288px;
+    }
+}

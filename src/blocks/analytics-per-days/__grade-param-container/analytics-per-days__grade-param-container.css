@@ -1,0 +1,19 @@
+.analytics-per-days__grade-param-container {
+    display: flex;
+    padding-top: 48px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #1A1B22;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .analytics-per-days__grade-param-container {
+        padding-top: 49px;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .analytics-per-days__grade-param-container {
+        padding-top: 16px;
+    }
+}

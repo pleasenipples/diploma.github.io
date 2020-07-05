@@ -1,0 +1,38 @@
+@import url('./__date/slider-card__date.css');
+@import url('./__comment/slider-card__comment.css');
+@import url('./__author/slider-card__author.css');
+@import url('./__avatar/slider-card__avatar.css');
+@import url('./__author-data/slider-card__author-data.css');
+@import url('./__author-name/slider-card__author-name.css');
+@import url('./__author-mail/slider-card__author-mail.css');
+
+.slider-card {
+    width: 400px;
+    height: 288px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.slider-card:after {
+    background: linear-gradient(to right, #FFDDD6 20%, #FFF9ED 20%, #FFF9ED 80%, #DBDBDB 80%);
+
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .slider-card {
+        width: 336px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .slider-card {
+        width: 288px;
+        height: 264px;
+        padding: 16px;
+    }
+}

@@ -1,0 +1,23 @@
+.swiper-button-prev {
+    background-color: #1A1B22;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    box-shadow: 0 3px 10px rgba(14, 26, 57, 0.2);
+    outline: none;
+    background-image: url("../../../images/slide-control-prev.svg");
+    left: 24px;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .swiper-button-prev {
+        display: none;
+    }
+}

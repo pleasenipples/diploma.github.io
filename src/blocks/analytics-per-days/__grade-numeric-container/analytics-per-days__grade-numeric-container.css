@@ -1,0 +1,17 @@
+.analytics-per-days__grade-numeric-container {
+    display: flex;
+    padding: 0 0 0 104px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .analytics-per-days__grade-numeric-container {
+        padding: 0 0 0 117px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .analytics-per-days__grade-numeric-container {
+        display: none;
+    }
+}

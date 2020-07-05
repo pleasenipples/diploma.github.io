@@ -1,0 +1,41 @@
+.slider-container__gradient {
+    z-index: 1;
+    position: relative;
+}
+
+
+.slider-container__gradient::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(to left, #F5F6F7 0%, rgba(245, 246, 247, 0) 8%);
+    pointer-events: none;
+}
+
+.slider-container__gradient::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(to right, #F5F6F7 0%, rgba(245, 246, 247, 0) 8%);
+    pointer-events: none;
+}
+
+@media screen and (max-width : 1024px) {
+    .slider-container__gradient::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    .slider-container__gradient::before {
+        display: none;
+    }
+}

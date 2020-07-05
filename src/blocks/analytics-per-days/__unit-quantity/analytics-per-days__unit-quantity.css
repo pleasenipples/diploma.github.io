@@ -1,0 +1,7 @@
+.analytics-per-days__unit-quantity {
+    height: 24px;
+    background-color: #2F71E5;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}

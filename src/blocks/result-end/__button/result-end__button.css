@@ -1,0 +1,40 @@
+.result-end__button {
+    width: 288px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 80px;
+    margin-top: 64px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 500;
+    color: #1A1B22;
+    transition: opacity .2s ease;
+    cursor: pointer;
+}
+
+.result-end__button:hover {
+    opacity: 0.9;
+}
+
+.result-end__button::after {
+    opacity: 1;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .result-end__button {
+        width: 240px;
+        height: 56px;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .result-end__button {
+        height: 56px;
+        margin-top: 12px;
+    }
+}
