@@ -1,0 +1,21 @@
+@import url('./__type/header__link-container_type_active.css');
+@import url('./__type/header__link-container_type_not-active.css');
+@import url('./__type/header__link-container_type_active_pages.css');
+
+.header__link-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .header__link-container {
+        height: 64px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .header__link-container {
+        height: 56px;
+    }
+}

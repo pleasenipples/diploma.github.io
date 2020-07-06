@@ -1,0 +1,4 @@
+.analytics-per-days__grade {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,33 @@
+@import url('./__title/analytics-per-days__title.css');
+@import url('./__grade/analytics-per-days__grade.css');
+@import url('__grade-param-container/analytics-per-days__grade-param-container.css');
+@import url('__grade-param/analytics-per-days__grade-param.css');
+@import url('__grade-param/_type/analytics-per-days__grade-param_type_date.css');
+@import url('__grade-numeric-container/analytics-per-days__grade-numeric-container.css');
+@import url('__grade-numeric/analytics-per-days__grade-numeric.css');
+@import url('__unit/analytics-per-days__unit.css');
+@import url('./__unit-date/analytics-per-days__unit-date.css');
+@import url('./__unit-quantity/analytics-per-days__unit-quantity.css');
+@import url('./__unit-quantity-num/analytics-per-days__unit-quantity-num.css');
+
+.analytics-per-days {
+    min-height: 866px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 104px;
+    background-color: #F5F6F7;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .analytics-per-days {
+        min-height: 786px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .analytics-per-days {
+        min-height: 478px;
+        padding: 0 16px;
+    }
+}

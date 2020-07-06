@@ -1,0 +1,28 @@
+@import url('__title/commits-head__title.css');
+@import url('__link/commits-head__link.css');
+@import url('__link-arrow/commits-head__link-arrow.css');
+@import url('__link-container/commits-head__link-container.css');
+@import url('__link-text/commits-head__link-text.css');
+
+.commits-head {
+    min-height: 182px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 104px 0;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .commits-head {
+        min-height: 140px;
+        padding: 0 40px 0;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .commits-head {
+        min-height: 168px;
+        padding: 0 16px 0;
+        flex-direction: column;
+        justify-content: normal;
+    }
+}

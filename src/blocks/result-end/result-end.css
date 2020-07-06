@@ -1,0 +1,19 @@
+@import url('./__button/result-end__button.css');
+
+.result-end {
+    min-height: 208px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .result-end {
+        min-height: 128px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .result-end {
+        min-height: 112px;
+    }
+}

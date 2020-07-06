@@ -1,0 +1,6 @@
+.commits-head__link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}

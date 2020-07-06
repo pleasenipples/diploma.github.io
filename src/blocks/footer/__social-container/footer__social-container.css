@@ -1,0 +1,11 @@
+.footer__social-container {
+    width: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width : 760px) {
+    .footer__social-container {
+        margin-bottom: 180px;
+    }
+}

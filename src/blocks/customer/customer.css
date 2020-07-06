@@ -1,0 +1,26 @@
+@import url('./__title/customer__title.css');
+@import url('./__description/customer__description.css');
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    height: 702px;
+    padding-left: 104px;
+    margin: 0;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .customer {
+        padding: 0;
+        align-items: center;
+        height: 615px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .customer {
+        padding: 0;
+        align-items: center;
+        height: auto;
+    }
+}

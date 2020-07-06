@@ -1,0 +1,27 @@
+@import url('./__bread-crumbs/query__bread-crumbs.css');
+@import url('./__title/query__title.css');
+@import url('./__stat/query__stat.css');
+@import url('./__stat/_type/query__stat_type_headers.css');
+@import url('./__bold/query__bold.css');
+@import url('./__link/query__link.css');
+
+.query {
+    min-height: 346px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 104px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .query {
+        min-height: 270px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .query {
+        min-height: 176px;
+        padding: 0 16px;
+    }
+}

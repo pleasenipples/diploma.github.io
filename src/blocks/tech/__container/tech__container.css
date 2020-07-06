@@ -1,0 +1,23 @@
+.tech__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 93px;
+    justify-content: space-between;
+    width: 598px;
+}
+
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .tech__container {
+        padding-top: 40px;
+        flex-wrap: nowrap;
+        min-width: 672px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .tech__container {
+        width: 100%;
+        padding-top: 6px;
+    }
+}

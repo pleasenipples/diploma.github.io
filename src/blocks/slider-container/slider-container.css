@@ -1,0 +1,11 @@
+@import url('./__gradient/slider-container__gradient.css');
+
+.slider-container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+

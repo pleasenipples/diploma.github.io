@@ -1,0 +1,11 @@
+.commits__button-container {
+    justify-content: center;
+    margin: 48px 0 0 0;
+    display: none;
+}
+
+@media screen and (max-width : 760px) {
+    .commits__button-container {
+        display: flex;
+    }
+}

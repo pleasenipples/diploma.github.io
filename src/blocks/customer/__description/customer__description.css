@@ -1,0 +1,23 @@
+.customer__description {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    margin: 0;
+    max-width: 815px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .customer__description {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .customer__description {
+        width: calc(100% - 32px);
+        padding-bottom: 30px;
+    }
+}

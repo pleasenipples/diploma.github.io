@@ -1,0 +1,21 @@
+.result-card__content {
+    display: flex;
+    min-height: 304px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 24px 24px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .result-card__content {
+        min-height: 270px;
+        padding: 16px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .result-card__content {
+        min-height: 250px;
+        padding: 15px 16px 20px;
+    }
+}

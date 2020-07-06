@@ -1,0 +1,20 @@
+@import url('commits-head/commits-head.css');
+@import url('./__button-container/commits__button-container.css');
+@import url('./__button/commits__button.css');
+
+.commits {
+    background-color: #F5F6F7;
+    min-height: 606px;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .commits {
+        min-height: 462px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .commits {
+        min-height: 568px;
+    }
+}

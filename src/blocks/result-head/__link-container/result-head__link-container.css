@@ -1,0 +1,12 @@
+.result-head__link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width : 760px) {
+    .result-head__link-container {
+        justify-content: normal;
+    }
+}

@@ -1,0 +1,11 @@
+.slider-card__author-data {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+@media screen and (max-width : 1024px)  {
+    .slider-card__author-data {
+        padding-left: 12px;
+    }
+}

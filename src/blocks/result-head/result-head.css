@@ -1,0 +1,28 @@
+@import url('./__title/result-head__title.css');
+@import url('./__link/result-head__link.css');
+@import url('./__link-container/result-head__link-container.css');
+@import url('./__link-text/result-head__link-text.css');
+@import url('./__link-arrow/result-head__link-arrow.css');
+
+.result-head {
+    min-height: 190px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 104px 0;
+}
+
+@media screen and (min-width : 760px) and (max-width : 1024px)  {
+    .result-head {
+        min-height: 106px;
+        padding: 0 40px 0;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .result-head {
+        min-height: 177px;
+        padding: 0 16px 0;
+        flex-direction: column;
+        justify-content: normal;
+    }
+}

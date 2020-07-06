@@ -1,0 +1,27 @@
+@import url('../../vendor/fonts.css');
+@import url('../main/main.css');
+@import url('../lead/lead.css');
+@import url('../preloader/preloader.css');
+@import url('../notfound/notfound.css');
+@import url('../results/results.css');
+@import url('../title/title.css');
+@import url('../author/author.css');
+@import url('../footer/footer.css');
+@import url('../lead-container/lead-container.css');
+  
+  .page {
+      max-width: 1440px;
+      margin: 0 auto;
+      font-family: 'Roboto', 'Roboto Slab', 'Arial', sans-serif;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  a::after {
+    opacity: 1;
+  }
+  a {
+    transition: opacity .2s ease;
+  }
+

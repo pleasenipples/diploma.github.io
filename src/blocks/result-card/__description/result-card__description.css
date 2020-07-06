@@ -1,0 +1,22 @@
+.result-card__description {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22;
+    margin: 0;
+    padding-top: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width : 1024px)  {
+    .result-card__description {
+        padding-top: 10px;
+        -webkit-line-clamp: 4;
+    }
+}
