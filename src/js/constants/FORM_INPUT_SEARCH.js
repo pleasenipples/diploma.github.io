@@ -1,0 +1,1 @@
+export const FORM_INPUT_SEARCH = document.forms.inputSearch;

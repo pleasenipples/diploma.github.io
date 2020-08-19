@@ -2,6 +2,7 @@ import Swiper from 'swiper';
 
 const slider = document.querySelector('.swiper-container');
 export const mySwiper = new Swiper(slider, {
+    init: false,
     slidesPerView: 'auto',
     centeredSlides: true,
     spaceBetween: 8,

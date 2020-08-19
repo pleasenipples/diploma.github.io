@@ -85,94 +85,27 @@
 
             <div class="slider-container">
                 <div class="slider-container__gradient">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Антон Долинин</h3>
-                                        <p class="slider-card__author-mail">anton@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="slider-card__comment">Emmet (formerly Zen Cod ing) is a web- developer’s toolkit that can greatly improve your HTML & CSS workflow.</p>
-                            </div>
-                        </div>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper commit-card-container">
 
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Мария Фёдорова</h3>
-                                        <p class="slider-card__author-mail">mariiifed@yandex.ru</p>
+                            <template id="commit-card-template">
+                                <div class="swiper-slide commit-card">
+                                    <div class="slider-card">
+                                        <p class="slider-card__date"></p>
+                                        <div class="slider-card__author">
+                                            <img src="" alt="author_avatar" class="slider-card__avatar">
+                                            <div class="slider-card__author-data">
+                                                <h3 class="slider-card__author-name"></h3>
+                                                <p class="slider-card__author-mail"></p>
+                                            </div>
+                                        </div>
+                                        <p class="slider-card__comment"></p>
                                     </div>
                                 </div>
-                                <p class="slider-card__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
-                            </div>
-                        </div>
+                            </template>
 
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Инга Иванова</h3>
-                                        <p class="slider-card__author-mail">ingaiva@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="slider-card__comment">With Emmet, you can type CSS-like expressions that can be dynamically parsed, and produce output depending on what you type in the abb...</p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Мария Фёдорова</h3>
-                                        <p class="slider-card__author-mail">mariiifed@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="slider-card__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Мария Фёдорова</h3>
-                                        <p class="slider-card__author-mail">mariiifed@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="slider-card__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <p class="slider-card__date">14 августа, 2019</p>
-                                <div class="slider-card__author">
-                                    <img src="<%=require('../images/author__avatar.png')%>" alt="author_avatar" class="slider-card__avatar">
-                                    <div class="slider-card__author-data">
-                                        <h3 class="slider-card__author-name">Мария Фёдорова</h3>
-                                        <p class="slider-card__author-mail">mariiifed@yandex.ru</p>
-                                    </div>
-                                </div>
-                                <p class="slider-card__comment">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools > Plugins > Available plugins   and find and install Emmet plugin.</p>
-                            </div>
                         </div>
                     </div>
-
-                </div>
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>

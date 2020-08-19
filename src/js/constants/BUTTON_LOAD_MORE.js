@@ -1,0 +1,1 @@
+export const BUTTON_LOAD_MORE = document.querySelector('.result-end__button');

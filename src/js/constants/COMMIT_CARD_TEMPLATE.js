@@ -1,0 +1,1 @@
+export const COMMIT_CARD_TEMPLATE = document.querySelector('#commit-card-template').content.querySelector('.commit-card');
