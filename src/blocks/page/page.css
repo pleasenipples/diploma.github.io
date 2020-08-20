@@ -8,6 +8,9 @@
 @import url('../author/author.css');
 @import url('../footer/footer.css');
 @import url('../lead-container/lead-container.css');
+@import url('../hide-block/hide-block.css');
+@import url('../visible/visible.css');
+@import url('../error-message/error-message.css');
   
   .page {
       max-width: 1440px;

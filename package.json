@@ -1,6 +1,6 @@
 {
   "name": "diploma_project",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Дипломный проект Яндекс.Практикум. Анализатор поисковых запросов пользователя",
   "main": "index.js",
   "scripts": {
@@ -51,5 +51,6 @@
     "firefox >=60",
     "last 2 safari versions",
     "edge >=15"
-  ]
+  ],
+  "devtool": "eval-source-map"
 }

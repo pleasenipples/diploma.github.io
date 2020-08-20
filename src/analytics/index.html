@@ -29,9 +29,9 @@
 
     <section class="query">
         <h4 class="query__bread-crumbs"><a href="./index.html" class="query__link">Главная</a> / Аналитика</h4>
-        <h1 class="query__title title">Вы спросили: «Путешествия»</h1>
-        <h3 class="query__stat">Новостей за неделю: <span class="query__bold">34 324</span></h3>
-        <h3 class="query__stat query__stat_type_headers">Упоминаний в загаловках: <span class="query__bold">235</span></h3>
+        <h1 class="query__title title">Вы спросили: </h1>
+        <h3 class="query__stat">Новостей за неделю: <span class="query__bold" id="news-for-week">34 324</span></h3>
+        <h3 class="query__stat query__stat_type_headers">Упоминаний в загаловках: <span class="query__bold" id="news-for-headers"></span></h3>
     </section>
 
     <section class="analytics-per-days">
@@ -50,47 +50,17 @@
             </div>
         </div>
 
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">19, пн</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 10%">
-                <p class="analytics-per-days__unit-quantity-num">15</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">20, вт</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 18%">
-                <p class="analytics-per-days__unit-quantity-num">18</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">21, ср</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 11%">
-                <p class="analytics-per-days__unit-quantity-num">11</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">22, чт</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 39%">
-                <p class="analytics-per-days__unit-quantity-num">39</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">23, пт</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 45%">
-                <p class="analytics-per-days__unit-quantity-num">45</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">24, сб</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 73%">
-                <p class="analytics-per-days__unit-quantity-num">73</p>
-            </div>
-        </div>
-        <div class="analytics-per-days__unit">
-            <h3 class="analytics-per-days__unit-date">25, вс</h3>
-            <div class="analytics-per-days__unit-quantity" style="width: 34%">
-                <p class="analytics-per-days__unit-quantity-num">34</p>
-            </div>
+        <div class="analytics-per-days-list">
+
+            <template id="analytics-per-days__unit-template">
+                <div class="analytics-per-days__unit">
+                    <h3 class="analytics-per-days__unit-date">25, вс</h3>
+                    <div class="analytics-per-days__unit-quantity">
+                        <p class="analytics-per-days__unit-quantity-num">34</p>
+                    </div>
+                </div>
+            </template>
+
         </div>
 
         <div class="analytics-per-days__grade-numeric-container">

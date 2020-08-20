@@ -1,7 +1,7 @@
 .result-card__image {
     height: 272px;
     background-size: cover;
-    background-position: center;
+    background-position: left top;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     position: relative;

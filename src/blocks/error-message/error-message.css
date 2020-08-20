@@ -1,0 +1,16 @@
+@import url(./__visible/error-message__visible.css);
+
+.error-message {
+    padding-top: 85px;
+    padding-left: 25px;
+    position: absolute;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: red;
+    height: 24px;
+    display: block;
+    pointer-events: none;
+  }

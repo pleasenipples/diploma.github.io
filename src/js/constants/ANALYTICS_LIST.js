@@ -1,0 +1,1 @@
+export const ANALYTICS_LIST = document.querySelector('.analytics-per-days-list');

@@ -1,0 +1,1 @@
+export const ANALYTICS_PER_DAYS_UNIT_TEMPLATE = document.querySelector('#analytics-per-days__unit-template').content.querySelector('.analytics-per-days__unit');
